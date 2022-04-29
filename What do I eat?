@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a random number from 1 to 5\n");
+    scanf("%d",&a);
+    switch(a)
+  {
+     case 1:
+     {
+        printf("Food Item- Burger\nPrice- Rs 130");
+        break;
+     }
+     case 2:
+     {
+         printf("Food Item- French Fries\nPrice- Rs 99");
+         break;
+     }
+     case 3:
+     {
+         printf("Food Item- Pizza\nPrice- Rs 250");
+         break;
+     }
+     case 4:
+     {
+         printf("Food Item- Sandwich\nPrice- Rs 80");
+         break;
+     }
+    case 5 :
+     {
+         printf("Food Item- Pasta\nPrice- Rs 180");
+         break;
+     }
+     default:
+        printf("invalid");
+        break;
+  }
+    return 0;
+}
