@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+    float m, p;
+    printf("Enter the score of the student");
+    scanf("%f",&m);
+    if(m>84&&m<101)
+    {
+        printf("Grade A");
+    }
+    else if(m>69&&m<85)
+    {
+        printf("Grade B");
+    }
+    else if(m>54&&m<70)
+    {
+        printf("Grade C");
+    }
+    else if(m>39&&m<55)
+    {
+        printf("Grade D");
+    }
+    else if(m<40)
+    {
+        printf("Grade F");
+    }
+    else
+    printf("invalid");
+    return 0;
+}
